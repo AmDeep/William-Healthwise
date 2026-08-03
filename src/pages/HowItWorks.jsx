@@ -50,7 +50,13 @@ export default function HowItWorks() {
       <section className="wrap openlab-strip">
         <div>
           <div className="label">Developed in collaboration with</div>
-          <img src="/assets/openlab_logo.png" alt="OpenLab" />
+          <a
+            href="https://www.uhnopenlab.ca/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/assets/openlab_logo.png" alt="OpenLab" />
+          </a>
         </div>
         <p className="desc">
           HealthWise is a research-backed project from OpenLab at the University Health Network, building intelligent solutions for better health outcomes.
